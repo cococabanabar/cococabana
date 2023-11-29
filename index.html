@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with FoodHut landing page.">
+    <title>CocoCabana | Pub & Club</title>
+   
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
+    <link rel="stylesheet" href="assets/vendors/animate/animate.css">
+
+    <!-- Bootstrap + FoodHut main styles -->
+	<link rel="stylesheet" href="assets/css/foodhut.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    
+    <!-- Navbar -->
+    <nav class="custom-navbar navbar navbar-expand-lg navbar-dark fixed-top" data-spy="affix" data-offset-top="10">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Strona główna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">O nas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#book-table">Zamów stolik</a>
+                </li>
+            </ul>
+            <a class="navbar-brand m-auto" href="#">
+                <img src="assets/imgs/logo.png" class="brand-img" alt="">
+                <span class="brand-txt">CocoCabana</span>
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Socialmedia<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testmonial">Opinie</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kontakt</a>
+                </li>
+                <!--
+                <li class="nav-item">
+                    <a href="components.html" class="btn btn-primary ml-xl-4">Components</a>
+                </li>
+                -->
+            </ul>
+        </div>
+    </nav>
+    <!-- header -->
+    <header id="home" class="header">
+        <div class="overlay text-white text-center">
+            <h1 class="display-2 font-weight-bold my-3">CocoCabana</h1>
+            <h2 class="display-4 mb-5">Najlepsze drinki i przekąski w mieście</h2>
+            <a class="btn btn-lg btn-primary" href="#gallary">Sprawdź nasze menu</a>
+        </div>
+    </header>
+
+    <!--  About Section  -->
+    <div id="about" class="container-fluid wow fadeIn" id="about"data-wow-duration="1.5s">
+        <div class="row">
+            <div class="col-lg-6 has-img-bg"></div>
+            <div class="col-lg-6">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 py-5 my-5">
+                        <h2 class="mb-4">O nas</h2>
+                        Nasz lokal powstał w 2023 roku z myślą o stworzeniu idealnego miejsca spotkań i integracji
+                        dla osób młodych. Zapraszamy jednak równiez osoby, czujące się młodo duchem!
+                        <br>
+                        <br>
+                        W CocoCabana każdy wieczór jest wyjątkowy dzięki naszym barmanom,
+                        którzy nie tylko serwują unikalne koktajle i przekąski, ale także tworzą widowisko
+                        na każdym etapie przygotowywania drinka. Nasze menu jest pełne egzotycznych smaków
+                        i świeżych składników, zapewniając niepowtarzalne doznania dla podniebienia.
+                        <br>
+                        <br>
+                        Nasza załoga to zespół pasjonatów, którzy kochają to, co robią. 
+                        Zawsze uśmiechnięci i gotowi do pomocy, sprawiają, że każdy gość czuje się jak w domu.
+                        CocoCabana to nie tylko pub, to miejsce, gdzie rodzą się przyjaźnie i wspomnienia.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--  gallary Section  -->
+    <div id="gallary" class="text-center bg-dark text-light has-height-md middle-items wow fadeIn">
+        <h2 class="section-title">NASZE MENU</h2>
+     <!--BLOG Section  -->
+    <div id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
+        <div class="row justify-content-center">
+            <div class="col-sm-7 col-md-4 mb-5">
+                <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#foods" role="tab" aria-controls="pills-home" aria-selected="true">Przekąski</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#juices" role="tab" aria-controls="pills-profile" aria-selected="false">Drinki</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="foods" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-11.jpg" alt="1" class="rounded-0 card-img-top mg-responsive;">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">15 zł</a></h1>
+                                <h4 class="pt20 pb20">Empadão</h4>
+                                <p class="text-white">Nasze Empadão to niezwykłe doświadczenie smakowe, gdzie kruche ciasto otacza aromatyczne nadzienie z soczystego mięsa, warzyw i przypraw, tworząc prawdziwy brazylijski rarytas w każdym kęsie.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-31.jpg" alt="1" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">25 zł</a></h1>
+                                <h4 class="pt20 pb20">Picanha</h4>
+                                <p class="text-white">"Nasza Picanha to mistrzowsko przygotowana, soczysta wołowina, poddana starannie dobranym przyprawom i grillowana do perfekcji, serwowana z elegancją, aby zapewnić niezapomniany festiwal smaków."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-transparent border my-3 my-md-0">
+                            <img src="assets/imgs/blog-21.jpg" alt="1" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">20 zł</a></h1>
+                                <h4 class="pt20 pb20">Acarajé</h4>
+                                <p class="text-white">"Acarajé to wyjątkowe danie, które przenosi smak Brazylii prosto na Twoje podniebienie. Delikatne kulki z czarnej fasoli, nadziewane pikantnymi krewetkami i sosami, tworzą niezapomnianą podróż kulinarą."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="juices" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="row">
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card bg-transparent border">
+                            <img src="assets/imgs/blog-41.jpg" alt="1" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">15 zł</a></h1>
+                                <h4 class="pt20 pb20">Caipirinha</h4>
+                                <p class="text-white">To ikoniczny brazylijski drink przygotowywany z cachacy (brazylijska wódka z trzciny cukrowej), świeżo wyciśniętej limonki, cukru i lodu. Jest to klasyczny trunek popularny zarówno w Brazylii, jak i na całym świecie.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card bg-transparent border">
+                            <img src="assets/imgs/blog-51.jpg" alt="1" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">20 zł</a></h1>
+                                <h4 class="pt20 pb20">Capeta</h4>
+                                <p class="text-white">To mocny i energetyzujący brazylijski drink, przygotowywany z cachacy, mleczka skondensowanego, guarany i lódu. Capeta jest popularny na imprezach i festiwalach, nadając im charakterystycznego smaku.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 my-3 my-md-0">
+                        <div class="card bg-transparent border">
+                            <img src="assets/imgs/blog-61.jpg" alt="1" class="rounded-0 card-img-top mg-responsive">
+                            <div class="card-body">
+                                <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">15 zł</a></h1>
+                                <h4 class="pt20 pb20">Batida</h4>
+                                <p class="text-white">To koktajl na bazie cachacy, mleczka kokosowego, a także świeżych owoców takich jak marakuja, ananas czy truskawki. Batida jest słodka, kremowa i doskonale reprezentuje tropikalny klimat Brazylii.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="overlay text-white text-center">
+        <a class="btn btn-lg btn-primary" href="menu.html">Sprawdź całe menu</a>
+    </div>
+    <br>
+    <!-- book a table Section  -->
+    <div class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items" id="book-table">
+        <div class="">
+            <h2 class="section-title mb-5">ZAREZERWUJ STOLIK</h2>
+            <div class="row mb-5">
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    EMAIL
+                    <input type="email" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="EMAIL">
+                </div>
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    ILOŚĆ GOŚCI
+                    <input type="number" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="ILOŚĆ GOŚCI" max="20" min="0">
+                </div>
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    GODZINA
+                    <input type="time" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="GODZINA">
+                </div>
+                <div class="col-sm-6 col-md-3 col-xs-12 my-2">
+                    DATA
+                    <input type="date" id="booktable" class="form-control form-control-lg custom-form-control" placeholder="12/12/12">
+                </div>
+            </div>
+            <a href="#book-table" class="btn btn-lg btn-primary" id="rounded-btn">Sprawdź dostępność</a>
+        </div>
+    </div>
+
+    
+
+    <!-- REVIEWS Section  -->
+    <div id="testmonial" class="container-fluid wow fadeIn bg-dark text-light has-height-lg middle-items">
+        <h2 class="section-title my-5 text-center">WASZE OPINIE</h2>
+        <div class="row mt-3 mb-5">
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Marcin</h3>
+                    <div class="testmonial-body">
+                        <p>Pub zdecydowanie przewyższył moje oczekiwania! Fantastyczna atmosfera, smakowite drinki, a obsługa na najwyższym poziomie. Z pewnością tu wrócę!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Anna</h3>
+                    <div class="testmonial-body">
+                        <p>Pub ten to prawdziwa perełka wśród miejsc rozrywki! Zawsze świetna atmosfera, doskonałe drinki i obsługa, która potrafi zaskoczyć pozytywnie.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-3 my-md-0">
+                <div class="testmonial-card">
+                    <h3 class="testmonial-title">Hubert</h3>
+                    <div class="testmonial-body">
+                        <p>Ten pub to prawdziwa oaza przyjemności! Mieszanka niesamowitej atmosfery, kreatywnych drinków i obsługi pełnej pozytywnej energii. Polecam wszystkim poszukiwaczom wyjątkowych miejsc!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT Section  -->
+    <div id="contact" class="container-fluid bg-dark text-light border-top wow fadeIn">
+        <div class="row">
+            <div class="col-md-6 px-5 has-height-lg middle-items">
+                <h3>ZNAJDŹ NAS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, laboriosam doloremque odio delectus, sunt magnam laborum impedit molestiae, magni quae ipsum, ullam eos! Alias suscipit impedit et, adipisci illo quam.</p>
+                <div class="text-muted">
+                    <p><span class="ti-location-pin pr-3"></span> Zofii Urbanowskiej 16, 62-500 Konin</p>
+                    <p><span class="ti-support pr-3"></span> 774 852 469</p>
+                    <p><span class="ti-email pr-3"></span>cococabana@pub.com</p>
+                </div>
+            </div>
+
+            <div class="col-md-6 px-0">
+                <div id="map" style="width: 100%; height: 100%; padding-right: 15%; padding-left: 15%; padding-top: 1.75%;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d365.74696297392666!2d18.25072686954875!3d52.2124569351102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1701160832087!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- page footer  -->
+    <div class="container-fluid bg-dark text-light has-height-md middle-items border-top text-center wow fadeIn">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Email</h3>
+                <P class="text-muted">cococabana@pub.com</P>
+            </div>
+            <div class="col-sm-4">
+                <h3>Zadzwoń</h3>
+                <P class="text-muted">774 852 469 </P>
+            </div>
+            <div class="col-sm-4">
+                <h3>Adres</h3>
+                <P class="text-muted">Zofii Urbanowskiej 16, 62-500 Konin</P>
+            </div>
+        </div>
+    </div>
+    <div class="bg-dark text-light text-center border-top wow fadeIn">
+        <p class="mb-0 py-3 text-muted small">&copy; Copyright <script>document.write(new Date().getFullYear())</script> Made with <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com">DevCRUD</a></p>
+    </div>
+    <!-- end of page footer -->
+
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- wow.js -->
+    <script src="assets/vendors/wow/wow.js"></script>
+    
+    <!-- google maps -->
+    
+
+    <!-- FoodHut js -->
+    <script src="assets/js/foodhut.js"></script>
+
+</body>
+</html>

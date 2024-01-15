@@ -61,7 +61,7 @@
     <header id="home" class="header">
         <div class="overlay text-white text-center">
             <h1 class="display-2 font-weight-bold my-3">CocoCabana</h1>
-            <h2 class="display-4 mb-5">Spotkania z klimatem, drinki z charakterem</h2>
+            <h2 class="display-4 mb-5">Najlepsze drinki i przekąski w mieście</h2>
             <a class="btn btn-lg btn-primary" href="#gallary">Sprawdź nasze menu</a>
         </div>
     </header>
